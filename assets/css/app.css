@@ -1,0 +1,139 @@
+#mapa-brasil{
+    margin: 0 auto;
+    width: 460px;
+}
+#mapa-brasil h5{
+    margin-bottom: 0;
+}
+#mapa-brasil .state {
+    cursor: pointer;
+}
+
+#mapa-brasil .state .shape {
+    cursor: pointer;
+    -width: 0;
+}
+
+#mapa-brasil .state .label_icon_state {
+    fill: #fff;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: normal;
+}
+
+#mapa-brasil .state .label_state {
+    display: none;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
+#mapa-brasil .state:hover .label_state,
+#mapa-brasil .state.hover .label_state {
+    display: block;
+}
+
+#mapa-brasil .model-green .state .shape {
+    fill: #6cb361;
+}
+
+#mapa-brasil .model-green .state .icon_state {
+    fill: #10592f;
+}
+
+#mapa-brasil .model-green .state .label_icon_state {
+    fill: #fff;
+}
+
+#mapa-brasil .model-green .state .label_state {
+    fill: #666;
+}
+
+#mapa-brasil .model-green .state:hover .shape,
+#mapa-brasil .model-green .state.hover .shape {
+    fill: #2d68b2;
+}
+
+#mapa-brasil .model-green .state:hover .icon_state,
+#mapa-brasil .model-green .state.hover .icon_state {
+    fill: #5a95ce;
+}
+
+#mapa-brasil .model-orange .state .shape {
+    fill: #fd7132;
+}
+
+#mapa-brasil .model-orange .state .icon_state {
+    fill: #6cb361;
+}
+
+#mapa-brasil .model-orange .state .label_icon_state {
+    fill: #fff;
+}
+
+#mapa-brasil .model-orange .state .label_state {
+    fill: #666;
+}
+
+#mapa-brasil .model-orange .state:hover .shape,
+#mapa-brasil .model-orange .state.hover .shape {
+    fill: #c93f04;
+}
+
+#mapa-brasil .model-orange .state:hover .icon_state,
+#mapa-brasil .model-orange .state.hover .icon_state {
+    fill: #10592f;
+}
+
+#mapa-brasil .model-darkgreen .state .shape {
+    fill: #366823;
+}
+
+#mapa-brasil .model-darkgreen .state .icon_state {
+    fill: #2779c6;
+}
+
+#mapa-brasil .model-darkgreen .state .label_icon_state {
+    fill: #fff;
+}
+
+#mapa-brasil .model-darkgreen .state .label_state {
+    fill: #666;
+}
+
+#mapa-brasil .model-darkgreen .state:hover .shape,
+#mapa-brasil .model-darkgreen .state.hover .shape {
+    fill: #4a8c31;
+}
+
+#mapa-brasil .model-darkgreen .state:hover .icon_state,
+#mapa-brasil .model-darkgreen .state.hover .icon_state {
+    fill: #5a95ce;
+}
+#filiadas-brasil{
+    display: none;
+}
+#filiadas-brasil{
+    font-size: 12px;
+}
+
+.star{
+    background: url('../images/star.png') no-repeat center center;
+    padding: 8px;
+    position: relative;
+    z-index: 1;
+}
+.star.starba{
+    top: 265px;
+    left: 144px;
+}
+.star.starrs{
+    top: 450px;
+    left: 10px;
+}
+.star.starmg{
+    top: 305px;
+    left: 110px;
+}
